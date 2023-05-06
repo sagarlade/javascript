@@ -26,8 +26,8 @@ console.log("Age:- "+age);
 var address="Sangola";
 console.log("Address:- "+address);
 
-var pincode="413308";
-console.log("Pincode:- "+pincode);
+var pinCode="413308";
+console.log("Pincode:- "+pinCode);
 
 var gender="Male";
 console.log("Gender:- "+gender);
@@ -35,4 +35,4 @@ console.log("Gender:- "+gender);
 var isMarried="No";
 console.log("Married Status:-  "+isMarried);
 
-console.log(firstName, lastName, age, address, pincode, gender, isMarried);
+console.log(firstName, lastName, age, address, pinCode, gender, isMarried);
