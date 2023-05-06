@@ -30,6 +30,9 @@ console.log("================================");
 
 var num=null;
 console.log("value:", num, typeof num);
+console.log("Undefined means a variable declared, but no value");
+
 
 var a;
 console.log("value:", a, typeof a);
+console.log("Null is assignment value. we can assign it to variable");
