@@ -2,14 +2,19 @@ function squareOfWordLength(str){
     var wordLength=str.length;
     console.log(`Length of Word is ==> ${wordLength}`);
 
+    console.log(`Given String is ${str}`);
     var squareOfWord=wordLength*wordLength;
     console.log(`Square of Word Length ==> ${squareOfWord}`);
+    console.log(`-------------------------------------------------------`);
+
+
 }
 squareOfWordLength("Javascript");
 squareOfWordLength("Google Chrome");
 squareOfWordLength("Developer Smart");
 
-console.log(`-------------------------------------------------------`);
+
+
 function developer(){
     
     var developer="I am Angular Deveoper";
