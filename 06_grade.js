@@ -1,6 +1,6 @@
 function gradeCalculation(marks) {
   if (typeof marks !== "number" || marks < 0 || marks > 100 || isNaN(marks)) {
-    console.log("Please provide valid marks");
+    console.log(`Please provide valid marks ${marks}`);
   } else if (marks >= 90) {
     console.log(`Fantastic marks: ${marks}, Your grade is A+`);
   } else if (marks >= 75) {
