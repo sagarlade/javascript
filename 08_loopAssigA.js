@@ -38,8 +38,9 @@ function oddPositionedChars(str) {
   let oddChars = '';
 
   for (let i = 0; i < str.length; i++) {
-    if (i % 2 === 0 && str[i] !== ' ') {
-      oddChars += str[i];
+    var char= str.charAt(i);
+    if (i % 2 != 0 && char != ' ') {
+      oddChars = oddChars + char;
     }
   }
 
