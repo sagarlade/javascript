@@ -54,3 +54,4 @@ console.log(result1);
 const str2 = "Soon I will be Angular IT Champ";
 const result2 = oddPositionedChars(str2);
 console.log(result2); 
+
