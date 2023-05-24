@@ -1,4 +1,4 @@
-
+// conditional operator
 var isAssignmentDone = true;
 var result= isAssignmentDone ? " You will get job " :  "You will not get Job";
 console.log(result);
@@ -16,10 +16,12 @@ var candidateName = "Jenny";
 var age = 23
 var gender = "Male";
 
-var result = (gender=="female" && age>=18) || (gender=="male" && age>=21)  ? "You are eligible" : "No you are not eligible";
+var result =  (gender=="Male" && age>=21)  ? "You are eligible" : "No you are not eligible";
 console.log(`${result}`);
 
 var num1 = 13;
 var result = num1%2 == 0 ? " EVEN number" : "ODD Number";
 console.log(`${result}`);
+
+
 
