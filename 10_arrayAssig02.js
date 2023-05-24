@@ -63,5 +63,5 @@ console.log(`----------- Step-12 ---------`);
 arrayNumbers.splice(3, 0, 55, 66)
 console.log(arrayNumbers);
 console.log(`----------- Step-13 ---------`);
-arrayNumbers.splice(4)
+arrayNumbers.splice(4,3)
 console.log(arrayNumbers);
