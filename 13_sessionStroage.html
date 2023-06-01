@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h1>Session Storage</h1>
+    <script>
+       window.sessionStorage.setItem("name", "Elan");
+        window.sessionStorage.setItem("country", "US");
+        window.sessionStorage.setItem("pin", "4567");
+
+        // Remove Item
+        window.sessionStorage.removeItem("pin");
+
+        //Get Item
+        const nameItem = window.sessionStorage.getItem("country");
+        console.log(nameItem);
+
+    </script>
+</body>
+</html>
