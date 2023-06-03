@@ -14,14 +14,21 @@ console.log(`Unique elements is==> ${arrayNum}`);
 
 console.log(`=============================================`);
 
-const str="How are you mate";
-let result="";
 
-const words=str.split(" ");
-for (let i = 0; i < words.length; i++) {
-  const word = words[i];
-  result += word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()+" ";
+
+
+function convertFirstAndLastCharToUpperCase(str) {
+  let arr = str.split(" ");
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length > 1) {
+      arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1, -1) + arr[i].charAt(arr[i].length - 1).toUpperCase();
+    }
+  }
+  return arr.join(" ");
 }
-result = result.trim(); 
-console.log(`Before string: ${str}`);
-console.log(`After string Convert: ${result}`);
+var sen="How are you mate";
+var output=convertFirstAndLastCharToUpperCase(sen);
+console.log(output);
+
+
+
