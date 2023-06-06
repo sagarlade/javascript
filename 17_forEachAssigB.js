@@ -51,8 +51,13 @@ console.log(`Sum of all epmloyee salary is==>  ${totalSalary}`);
 
 
 console.log("----------------- Average Salary -----------------");
-const averageSalary = totalSalary / employees.length;
-console.log("Average salary is==>", averageSalary);
+
+let sumSalary = 0;
+employees.forEach( (employee) => {
+    sumSalary = sumSalary + employee.emp_salary;
+});
+let averageSalary = sumSalary / employees.length;
+console.log(`Average Salary is : ${averageSalary}`);
 
 console.log("--------- IT or HR employees with salary >= 75000 ----------");
 employees.forEach((employee) => {
