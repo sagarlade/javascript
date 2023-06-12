@@ -11,7 +11,7 @@ console.log(myFullName);
 
 var myLove;
 myLove="i love only JS";
-console.log(myLove);
+console.log(myLove); 
 
 
 var firstName="Aditya";
